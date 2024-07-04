@@ -1,0 +1,25 @@
+#syntax for classic foreach loop
+for ((initialization; condition; increment or decrement)); do
+ commands or statements
+done
+for ((i=10; i>=0; i--)); do
+         echo “Number: $i”
+done
+#below is syntax foreach
+for variable in list; do
+    statements
+done
+ 
+for i in 1 2 3 4 5; do
+        echo “Number: $i”
+done
+ 
+for file in /home/scripts/*; do
+        echo “FileName : $file”
+done
+ 
+array=(“Amar” “Karthik” “Neervinga”)
+for names in “$(array[@]”; do
+         echo “Name : $names”
+done
+has context menu

@@ -1,0 +1,13 @@
+while [codition]; do
+  statements
+done
+ 
+i=1
+while [ $i -le 5 ]; do
+        echo “Number: $i”
+        ((i++))
+Done
+ 
+Until [condition]; do
+Statements
+Done
